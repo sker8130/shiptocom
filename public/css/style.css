@@ -1,6 +1,6 @@
 :root {
   --bg-purple: #CCCCFF;
-  --color-purple2: #9747FF;
+  --color-purple2: #8C45BF;
   --color-purple3: #CCCCFF;
   --color-text1: #1B2125;
   --color-yellow: #FFD869;
@@ -26,8 +26,16 @@ button {
     font-family: 'Maven Pro', sans-serif;
 }
 
-.container {
-    width: 90%;
-    margin: auto;
+.container {    
     overflow: hidden;
+}
+
+
+.button{
+    width: 100%;
+    padding: 12px;
+    background-color: var(--color-purple2);
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 600;
 }
