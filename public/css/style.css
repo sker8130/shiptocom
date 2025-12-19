@@ -1,0 +1,33 @@
+:root {
+  --bg-purple: #CCCCFF;
+  --color-purple2: #9747FF;
+  --color-purple3: #CCCCFF;
+  --color-text1: #1B2125;
+  --color-yellow: #FFD869;
+  --color-white: #FFFFFF;
+  --color-success: #A1EEBD;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-purple);
+    color: var(--color-text1);
+}
+button {
+    cursor: pointer;
+    border: none;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
