@@ -3,6 +3,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: var(--bg-purple);
+
 }
 .banner-image {
     width: 319px;
