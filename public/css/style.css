@@ -1,7 +1,7 @@
 :root {
   --bg-purple: #CCCCFF;
   --color-purple2: #8C45BF;
-  --color-purple3: #CCCCFF;
+  --color-purple3: #9747FF;
   --color-text1: #1B2125;
   --color-yellow: #FFD869;
   --color-white: #FFFFFF;
@@ -18,6 +18,8 @@ body {
     margin: 0;
     padding: 0;
     color: var(--color-text1);
+    font-size: 14px;
+    font-weight: 500;
 }
 button {
     cursor: pointer;
@@ -41,4 +43,32 @@ button {
     color: var(--color-white);
     font-size: 18px;
     font-weight: 600;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.title .icon{
+    width: 20px;
+    height: auto;
+}
+
+.subtitle{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.green{
+    color: var(--color-success);
+}
+
+.active{
+    background-color: var(--bg-purple);
+    width: 50px;
+    height: auto;
+    border-radius: 50px;
 }
