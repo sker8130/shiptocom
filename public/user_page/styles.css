@@ -1,0 +1,22 @@
+
+.app {
+  padding: 16px;
+  padding-bottom: 80px;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.balance {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.negative {
+  color: var(--negative);
+}
+

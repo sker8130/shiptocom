@@ -1,0 +1,74 @@
+:root {
+  --bg-purple: #CCCCFF;
+  --color-purple2: #8C45BF;
+  --color-purple3: #9747FF;
+  --color-text1: #1B2125;
+  --color-yellow: #FFD869;
+  --color-white: #FFFFFF;
+  --color-success: #A1EEBD;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--color-text1);
+    font-size: 14px;
+    font-weight: 500;
+}
+button {
+    cursor: pointer;
+    border: none;
+    font-family: 'Maven Pro', sans-serif;
+    width: 100%;
+    height: 52px;
+    border-radius: 32px;
+    font-size: 18px;
+}
+
+.container {    
+    overflow: hidden;
+}
+
+
+.button{
+    width: 100%;
+    padding: 12px;
+    background-color: var(--color-purple2);
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.title .icon{
+    width: 20px;
+    height: auto;
+}
+
+.subtitle{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.green{
+    color: var(--color-success);
+}
+
+.active{
+    background-color: var(--bg-purple);
+    width: 50px;
+    height: auto;
+    border-radius: 50px;
+}
